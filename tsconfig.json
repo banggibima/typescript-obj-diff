@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "lib": ["dom", "es2015", "es2017", "esnext"],
+    "types": ["jest", "node"],
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"]
+    },
+    "allowJs": true,
+    "checkJs": false
+  },
+  "include": ["src/**/*.ts", "src/**/*.test.ts"],
+  "exclude": ["node_modules", "build", "dist"]
+}
